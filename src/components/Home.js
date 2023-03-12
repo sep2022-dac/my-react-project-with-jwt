@@ -14,6 +14,7 @@ function Home() {
           className="col-11 col-md-10 h3"
           style={{ fontFamily: "cursive", textAlign: "center" }}
         >
+          <h1>I M HOME</h1>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
           dignissimos quam, ab labore laudantium ullam consequuntur perferendis
           culpa repellat dolor velit non sequi, eligendi cupiditate minus nisi

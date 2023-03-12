@@ -3,6 +3,7 @@ import AboutUs from "./components/AboutUs";
 import AppNavLinks from "./components/AppNavLinks";
 import Home from "./components/Home";
 import Login from "./components/Login";
+import OrderList from "./components/OrderList";
 import PageNotFound from "./components/PageNotFound";
 import Playground from "./components/Playground";
 import SimpleForm from "./components/SimpleForm";
@@ -32,10 +33,10 @@ function App() {
           }
         />
         <Route
-          path="playground"
+          path="orderlist"
           element={
             <ProtectedRoute>
-              <Playground />
+              <OrderList />
             </ProtectedRoute>
           }
         />

@@ -38,9 +38,10 @@ function AppNavLinks4LoggedInUser() {
               <Nav.Link as={Link} to="/simplelist">
                 Simple List
               </Nav.Link>
-              <Nav.Link as={Link} to="/playground">
-                Playground
+              <Nav.Link as={Link} to="/orderlist">
+                Order List
               </Nav.Link>
+
               <Nav.Link as={Link} to="/aboutus">
                 About Us
               </Nav.Link>
