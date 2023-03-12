@@ -17,6 +17,12 @@ function SimpleList() {
 
     const newlist = response.data;
     setList(newlist);
+
+    let token = `eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWtoaWwiLCJpc3MiOiJjZGFjIiwiaWF0IjoxNjc4NTk3Mzk2LCJleHAiOjE2Nzg2MDA5OTZ9.VZ8e0xI-iPPQU0edVJQxW4kW0zjIl1FTMf8dywfKtXRIUSQlU2Z5FNCUTYP_P7A4D-cUUyQ5m2UleycQ5xty9Q`;
+    const config = {
+      headers: { Authorization: `Bearer ${token}` },
+    };
+    axios.get("http://localhost:8080/order/", config);
   };
 
   useEffect(() => {
